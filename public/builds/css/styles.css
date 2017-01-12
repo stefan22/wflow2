@@ -151,7 +151,7 @@ h3 {
 h4 {
   font-size: 24px;
   line-height: 130%;
-  color: #0d0d0d;
+  color: #00aaff;
   margin-bottom: .3em;
 }
 
@@ -453,7 +453,7 @@ header#header #brandz h3 {
   max-height: 450px;
   /* 72px;*/
   background: #da2734;
-  border-bottom: 2px solid #8c251d;
+  border-bottom: 1px solid #811018;
   margin-bottom: 1px;
   box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.85);
 }
