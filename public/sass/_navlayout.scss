@@ -91,6 +91,7 @@ header#header {
         background-color: $lightred;
         .navbar-nav> {
             li {
+            margin-right: 2em;
                 a {
                     color: $white;
                     letter-spacing: .15px;
