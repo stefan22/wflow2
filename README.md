@@ -1,6 +1,7 @@
 ### wflow<kbd>2</kbd> &nbsp; :rocket:
 
-- SPA using bootstrap, sass, npm, bower, grunt, package.json, and JavaScript
+- SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, and **JavaScript**
+  - nanobar
 
 
 
