@@ -1,0 +1,1038 @@
+/* adobe color generator
+=======================  */
+/*  imports & applies Eric Meyer's Reset.css
+--------------------------------------------     */
+@import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+/* line 5, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a,
+body #mainWrapper #wrapper #top #skip a:active,
+body #mainWrapper #wrapper #top #skip a:visited,
+body #mainWrapper #wrapper #top #skip a:hover, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img, body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip a:hover img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* grabs google fonts
+--------------------------------------------     */
+/* sets primary & secondary fonts
+----------------------------------------------   */
+/* to extend primary font
+-------------------------  */
+/* line 20, ../../sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nobile", serif, arial;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 29, ../../sass/_base.scss */
+p, #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover,
+#mainmenu .navbar-collapse .navbar-nav > li a,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:active,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:visited,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li a {
+  font-family: "Merriweather", serif, arial;
+  font-weight: normal;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 36, ../../sass/_base.scss */
+#mainmenu #primary-nav ul #nav-home a i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover i.material-icons, #mainmenu #primary-nav ul #nav-one a i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover i.material-icons, #mainmenu #primary-nav ul #nav-two a i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover i.material-icons, #mainmenu #primary-nav ul #nav-three a i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover i.material-icons, #mainmenu #primary-nav ul #nav-four a i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover i.material-icons, #mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 99%;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+/* line 60, ../../sass/_base.scss */
+h1 {
+  font-size: 36px;
+  line-height: 140%;
+  color: #0d0d0d;
+  margin-bottom: .6em;
+}
+
+/* line 72, ../../sass/_base.scss */
+h2 {
+  font-size: 32px;
+  line-height: 140%;
+  color: #a62319;
+  margin-bottom: 0.5em;
+}
+
+/* line 81, ../../sass/_base.scss */
+h3 {
+  font-size: 28px;
+  line-height: 130%;
+  margin-bottom: .4em;
+  color: #a62319;
+}
+
+/* line 92, ../../sass/_base.scss */
+h4 {
+  font-size: 24px;
+  line-height: 130%;
+  color: #0d0d0d;
+  margin-bottom: .3em;
+}
+
+/* line 101, ../../sass/_base.scss */
+h5 {
+  font-size: 22px;
+  line-height: 120%;
+  color: #a62319;
+  margin-bottom: .3em;
+}
+
+/* line 110, ../../sass/_base.scss */
+h6 {
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: .3em;
+  color: #a62319;
+}
+
+/* line 119, ../../sass/_base.scss */
+p {
+  font-size: 15px;
+  line-height: 150%;
+  color: #121212;
+  margin-bottom: .3em;
+}
+/* line 125, ../../sass/_base.scss */
+p:focus {
+  outline: none;
+}
+
+/* line 132, ../../sass/_base.scss */
+a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 15px;
+  -moz-animation: "slide-down 5s 3";
+  -webkit-animation: "slide-down 5s 3";
+  animation: "slide-down 5s 3";
+  color: #6a7613;
+}
+/* line 139, ../../sass/_base.scss */
+a:focus, body #mainWrapper #wrapper #top #skip a:focus:active, body #mainWrapper #wrapper #top #skip a:focus:visited, body #mainWrapper #wrapper #top #skip a:focus:hover {
+  outline: none;
+}
+/* line 142, ../../sass/_base.scss */
+a:active, body #mainWrapper #wrapper #top #skip a:active {
+  outline: none;
+}
+/* line 145, ../../sass/_base.scss */
+a:hover, body #mainWrapper #wrapper #top #skip a:hover {
+  color: #5e6910;
+  outline: none;
+}
+
+/* line 152, ../../sass/_base.scss */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* line 156, ../../sass/_base.scss */
+img:focus {
+  outline: none;
+}
+
+/* Compass Mixin
+   Set the specified bg-color and it calculates/outputs a 
+   dark-or-light contrasted text color.
+----------------------------------------------------------------     */
+/* default-border-radius -> border-radius
+----------------------------------------------------   */
+/* single-text-shadow-defaults
+--------------------------------------------------      */
+/*  red
+=========================================                         */
+/* line 26, ../../sass/_mixins.scss */
+.button-red {
+  color: #7aafe7;
+  background-color: #4f95df;
+  border-color: #a5c9ef;
+  text-shadow: 0px 0px 1px rgba(99, 99, 99, 0.7);
+}
+/* line 32, ../../sass/_mixins.scss */
+.button-red:hover {
+  color: #3988db;
+  background-color: #3183da;
+  border-color: #277bd4;
+}
+/* line 37, ../../sass/_mixins.scss */
+.button-red:focus {
+  border: none;
+  outline: none;
+  text-shadow: 0px 0px 1px rgba(99, 99, 99, 0.7);
+}
+
+/* main button
+==========================================                          */
+/* line 48, ../../sass/_mixins.scss */
+.botone, .button-red {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-family: "Merriweather", serif, arial;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  -webkit-appearance: button;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+/* animations/keyframes
+----------------------------------*/
+/*use this*/
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@-o-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+/*
+---------------------------------
+
+Media Queries
+
+--------------------------------- */
+/* 320 under */
+/* 320 - 767 */
+/* 768 - 991  */
+/* 992 - 1199 */
+/* 1200 >*/
+/*  Main body layout
+------------------------------------------------    */
+/* line 4, ../../sass/_mainlayout.scss */
+body {
+  height: 100%;
+  font-family: "Merriweather", serif, arial;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0;
+}
+/* line 12, ../../sass/_mainlayout.scss */
+body #mainWrapper {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+/* line 15, ../../sass/_mainlayout.scss */
+body #mainWrapper #wrapper {
+  overflow: visible;
+  padding-bottom: 330px;
+}
+/* line 18, ../../sass/_mainlayout.scss */
+body #mainWrapper #wrapper #top {
+  background-color: #4f95df;
+  color: #4f95df;
+}
+/* line 22, ../../sass/_mainlayout.scss */
+body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
+  position: absolute;
+  left: 0;
+  top: -300px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/*  top-stripe
+------------------------------------     */
+/* line 4, ../../sass/_navlayout.scss */
+#brandbanner {
+  background-color: #8c251d;
+  height: 3px;
+  width: 100%;
+}
+
+/* header section
+--------------------------------------    */
+/* line 13, ../../sass/_navlayout.scss */
+header#header {
+  padding: 1em 0;
+  background: #f7f7f7;
+}
+/* line 18, ../../sass/_navlayout.scss */
+header#header #logo a, header#header #logo body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip header#header #logo a:active, header#header #logo body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip header#header #logo a:visited, header#header #logo body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip header#header #logo a:hover {
+  display: block;
+}
+/* line 21, ../../sass/_navlayout.scss */
+header#header #logo img {
+  max-width: 230px;
+}
+/* line 26, ../../sass/_navlayout.scss */
+header#header #brandz h1 {
+  margin-bottom: .3em;
+  text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 26, ../../sass/_navlayout.scss */
+  header#header #brandz h1 {
+    font-size: 34px;
+    line-height: 110%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 26, ../../sass/_navlayout.scss */
+  header#header #brandz h1 {
+    font-size: 30px;
+    line-height: 110%;
+  }
+}
+/* line 38, ../../sass/_navlayout.scss */
+header#header #brandz h3 {
+  text-align: center;
+  margin: 0;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 38, ../../sass/_navlayout.scss */
+  header#header #brandz h3 {
+    font-size: 26px;
+    line-height: 110%;
+    margin-bottom: .3em;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 38, ../../sass/_navlayout.scss */
+  header#header #brandz h3 {
+    font-size: 26px;
+    line-height: 110%;
+    margin-bottom: .3em;
+  }
+}
+
+/* line 54, ../../sass/_navlayout.scss */
+#mainmenu {
+  max-height: 450px;
+  /* 72px;*/
+  background: #a62319;
+  border-bottom: 2px solid #8c251d;
+  margin-bottom: 1px;
+  box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.85);
+}
+/* line 63, ../../sass/_navlayout.scss */
+#mainmenu .navbar {
+  margin-bottom: 0;
+  min-height: 58px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 63, ../../sass/_navlayout.scss */
+  #mainmenu .navbar {
+    min-height: 52px;
+  }
+}
+/* line 70, ../../sass/_navlayout.scss */
+#mainmenu .navbar-default,
+#mainmenu .navbar-collapse,
+#mainmenu .navbar-default .navbar-form {
+  border-color: #eaeaea;
+  border-color: transparent;
+  background-color: #a62319;
+}
+/* line 78, ../../sass/_navlayout.scss */
+#mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover,
+#mainmenu .navbar-collapse .navbar-nav > li a,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:active,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:visited,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li a,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:active,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:visited,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
+  color: #f7f7f7;
+  letter-spacing: .15px;
+  font-size: 16px;
+  line-height: 168%;
+  font-weight: lighter;
+  text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
+}
+/* line 87, ../../sass/_navlayout.scss */
+#mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover,
+#mainmenu .navbar-collapse .navbar-nav > li a:hover,
+#mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover,
+#mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
+  color: #050505;
+  text-decoration: underline;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 78, ../../sass/_navlayout.scss */
+  #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover,
+  #mainmenu .navbar-collapse .navbar-nav > li a,
+  #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active,
+  body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:active,
+  #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited,
+  body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:visited,
+  #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+  body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover,
+  #mainmenu .navbar-default .navbar-form .navbar-nav > li a,
+  #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active,
+  body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:active,
+  #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited,
+  body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:visited,
+  #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
+  body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+}
+/* line 102, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-home a i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover i.material-icons {
+  font-size: 14px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 101, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-home a, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* line 112, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-one a i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover i.material-icons {
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 111, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-one a, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* line 122, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-two a i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover i.material-icons {
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 121, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-two a, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* line 132, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-three a i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover i.material-icons {
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 131, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-three a, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* line 142, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-four a i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover i.material-icons {
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 141, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-four a, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* line 152, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 151, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-five a, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 163, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-six a.dropdown-toggle, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:hover {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  /* line 164, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:hover {
+    background-color: #b3261b;
+  }
+  /* line 167, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active {
+    background-color: #b3261b;
+  }
+  /* line 170, ../../sass/_navlayout.scss */
+  #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited {
+    background-color: #b3261b;
+  }
+}
+/* line 178, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six a b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:active b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:active b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:visited b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:visited b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:hover b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:hover b.caret {
+  margin-left: 5px;
+}
+/* line 182, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited,
+#mainmenu #primary-nav ul #nav-six a.dropdown-toggle,
+#mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active,
+body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active,
+#mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited,
+body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited,
+#mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:hover {
+  background-color: #a62319;
+}
+/* line 186, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:hover,
+#mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a,
+#mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:active,
+body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:active,
+#mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:visited,
+body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:visited,
+#mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:hover,
+body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:hover {
+  background-color: #b3261b;
+}
+/* line 190, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six .nav .open > a:focus, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:active, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:visited, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:hover {
+  background-color: #b3261b;
+}
+/* line 193, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six ul.dropdown-menu {
+  min-width: 131px;
+  top: 104%;
+  background-color: #b3261b;
+}
+/* line 198, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a, #mainmenu #primary-nav ul #nav-six ul.dropdown-menu body #mainWrapper #wrapper #top #skip li > a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a:active, #mainmenu #primary-nav ul #nav-six ul.dropdown-menu body #mainWrapper #wrapper #top #skip li > a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a:visited, #mainmenu #primary-nav ul #nav-six ul.dropdown-menu body #mainWrapper #wrapper #top #skip li > a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a:hover {
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: .5px;
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 2px;
+  vertical-align: middle;
+}
+@-webkit-keyframes slide-down {}
+@-moz-keyframes slide-down {}
+@-ms-keyframes slide-down {}
+@-o-keyframes slide-down {}
+/* line 209, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > span i.material-icons {
+  vertical-align: middle;
+  margin-left: 3px;
+  font-size: 13px;
+}
+
+/*  maincontent
+-------------------------------- */
+/* line 5, ../../sass/_maincontent.scss */
+#mainContent:focus {
+  outline: none;
+}
+/* line 9, ../../sass/_maincontent.scss */
+#mainContent .mainpad {
+  margin-bottom: 2em;
+}
+/* line 12, ../../sass/_maincontent.scss */
+#mainContent #maintop {
+  /* im getting rid of 15pad from container */
+  padding: 0;
+}
+/* line 15, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner {
+  border-bottom: 1px dotted #ebf0c2;
+  margin-bottom: 2em;
+}
+/* line 16, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner .img-responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.25em;
+}
+/* line 24, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner figure#bannerCaption {
+  background-color: #fbfcf3;
+  padding: 0 15px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 29, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner figure#bannerCaption p {
+  font-size: 14px;
+  margin-bottom: 1.2em;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 29, ../../sass/_maincontent.scss */
+  #mainContent #maintop #featureBanner figure#bannerCaption p {
+    font-size: 13px;
+  }
+}
+/* line 36, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner figure#bannerCaption h4 {
+  margin-bottom: .5em;
+}
+/* line 38, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner figure#bannerCaption h4 i.material-icons {
+  vertical-align: text-top;
+  font-size: 22px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 36, ../../sass/_maincontent.scss */
+  #mainContent #maintop #featureBanner figure#bannerCaption h4 {
+    font-size: 22px;
+  }
+  /* line 44, ../../sass/_maincontent.scss */
+  #mainContent #maintop #featureBanner figure#bannerCaption h4 p {
+    font-size: 13px;
+  }
+}
+/* line 53, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea {
+  margin: 2em 0;
+}
+/* line 55, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .headline > {
+  margin-bottom: .5em;
+}
+/* line 57, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .headline > i.material-icons {
+  color: #a62319;
+  font-size: 24px;
+  line-height: 99%;
+  vertical-align: middle;
+}
+/* line 67, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea {
+  margin-bottom: 2em;
+}
+/* line 69, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea .headline {
+  margin-bottom: .5em;
+}
+/* line 71, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea .headline i.material-icons {
+  color: #a62319;
+  font-size: 24px;
+  line-height: 99%;
+  vertical-align: middle;
+}
+
+/*   footer
+----------------------------   */
+/* line 4, ../../sass/_footer.scss */
+.footer#mainFooter {
+  padding: 0 !important;
+  position: relative;
+  margin-top: -295px;
+  min-height: 295px;
+  clear: both;
+  box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
+  border-top: 1px solid #e7edb6;
+  background-color: #fbfcf3;
+}
+/* line 13, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container {
+  /* dont add padding!*/
+}
+/* line 15, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content {
+  padding-top: 2em;
+}
+/* line 16, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content h5 {
+  margin-bottom: .75em;
+}
+/* line 20, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #socialIcons p {
+  margin-bottom: .75em;
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 20, ../../sass/_footer.scss */
+  .footer#mainFooter #topfoot.container #footer-content #socialIcons p {
+    margin-bottom: 1em;
+  }
+}
+/* line 27, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #socialIcons a {
+  display: inline-block;
+  margin-left: .5em;
+  max-height: auto;
+  max-width: 55px;
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 27, ../../sass/_footer.scss */
+  .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
+    max-width: 40px;
+    margin-left: 0px;
+    margin-right: .5em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 27, ../../sass/_footer.scss */
+  .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
+    max-width: 40px;
+    margin-left: 0;
+  }
+}
+/* line 45, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #relatedLinks li a {
+  color: #a62319;
+  text-decoration: underline;
+  font-size: 13px;
+  vertical-align: text-bottom;
+}
+/* line 51, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #relatedLinks li i.material-icons {
+  vertical-align: text-top;
+  font-size: 13px;
+}
+/* line 61, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content .subfoot {
+  margin-bottom: 3em;
+}
+/* line 63, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content .subfoot p {
+  color: #121212;
+  font-size: 13px;
+}
+/* line 68, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
+  color: #a62319;
+  font-size: 22px;
+  line-height: 98%;
+  vertical-align: middle;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 68, ../../sass/_footer.scss */
+  .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
+    font-size: 19px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 68, ../../sass/_footer.scss */
+  .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
+    font-size: 18px;
+  }
+}
+/* line 84, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot {
+  box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
+  border-top: 1px solid #871c14;
+  background-color: #a62319;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 91, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row #bottomlogo img {
+    max-width: 60px !important;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+/* line 98, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright {
+  text-align: right;
+  vertical-align: middle;
+  line-height: 82px;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #000000;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 98, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright {
+    line-height: 18px;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-top: 20px;
+    min-height: 30px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 98, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright {
+    padding-top: 10px !important;
+  }
+}
+/* line 115, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright .myself {
+  color: #000000;
+  vertical-align: text-top;
+  line-height: 20px;
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 115, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright .myself {
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align: middle;
+  }
+}
+/* line 126, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright span.braggSection {
+  vertical-align: text-top;
+  line-height: 20px;
+  margin-right: 2.5em;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 126, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright span.braggSection {
+    margin-right: 1em;
+    line-height: 18px;
+  }
+  /* line 133, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright span.braggSection .city {
+    float: right;
+  }
+  /* line 136, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright span.braggSection .year {
+    float: right;
+  }
+}
+/* line 140, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
+  color: #f7f7f7;
+  font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 140, ../../sass/_footer.scss */
+  .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+/*
+-----------------------------------
+
+	*** Styles.scss ***
+	
+-----------------------------------      */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 21, ../../sass/styles.scss */
+  #logo a img, #logo body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip #logo a:active img, #logo body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip #logo a:visited img, #logo body #mainWrapper #wrapper #top #skip a:hover img, body #mainWrapper #wrapper #top #skip #logo a:hover img {
+    margin: 0 auto;
+  }
+
+  /* line 25, ../../sass/styles.scss */
+  #mainmenu button.navbar-toggle.btn-navbar {
+    padding: 9px 10px 4px;
+    border-color: #f7f7f7;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) and (min-width: 320px) and (max-width: 767px) {
+  /* line 27, ../../sass/styles.scss */
+  #mainmenu button.navbar-toggle.btn-navbar:focus {
+    background-color: #aa241a;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 35, ../../sass/styles.scss */
+  #mainmenu button.navbar-toggle.btn-navbar span.icon-bar {
+    background: #f7f7f7;
+    width: 40px;
+    height: 2.75px;
+  }
+  /* line 40, ../../sass/styles.scss */
+  #mainmenu button.navbar-toggle.btn-navbar span.menu-text {
+    text-transform: lowercase;
+    line-height: 22px;
+    font-size: 13.5px;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    text-shadow: 3px 3px 4px rgba(180, 174, 174, 0.35);
+    color: #0d0d0d;
+  }
+
+  /* line 52, ../../sass/styles.scss */
+  .apiarea h3.headline {
+    font-size: 25px;
+  }
+  /* line 55, ../../sass/styles.scss */
+  .apiarea p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 64, ../../sass/styles.scss */
+  #maintop #featureBanner #bannerCaption h4 {
+    font-size: 22px;
+  }
+  /* line 67, ../../sass/styles.scss */
+  #maintop #featureBanner #bannerCaption p {
+    font-size: 13px;
+  }
+
+  /* line 75, ../../sass/styles.scss */
+  #mainmiddle section.apiarea h3.headline {
+    font-size: 25px;
+  }
+  /* line 78, ../../sass/styles.scss */
+  #mainmiddle section.apiarea p {
+    font-size: 14px;
+  }
+}
+/* Rules for using icons as black on a light background. */
+/* line 87, ../../sass/styles.scss */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 36px;
+  line-height: 100%;
+}
+/* line 91, ../../sass/styles.scss */
+.material-icons.md-dark:hover {
+  color: rgba(40, 130, 111, 0.92);
+}
+
+/* line 95, ../../sass/styles.scss */
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+/* line 102, ../../sass/styles.scss */
+.material-icons.md-light {
+  color: white;
+}
+
+/* line 106, ../../sass/styles.scss */
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}

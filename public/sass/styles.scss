@@ -1,0 +1,123 @@
+@import "compass";
+@import "compass/utilities";
+@import "compass/css3";
+@import "variables";
+@import "base";
+@import "mixins";
+@import "mainlayout";
+@import "navlayout";
+@import "compass/css3/animation";
+@import "maincontent";
+@import "footer";
+
+/*
+-----------------------------------
+
+	*** Styles.scss ***
+	
+-----------------------------------      */
+
+@include small {
+    #logo a img {
+        margin: 0 auto;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default
+    .navbar-toggle:focus {
+        background-color:lighten($lightred, 1);
+
+    }//button bg
+    #mainmenu {
+        button.navbar-toggle.btn-navbar {
+            @include small {
+                &:focus {
+                    background-color: lighten($lightred,1);
+                }//button focus
+
+            }//small
+             @include xsmall {
+                background-color: lighten($lightred,1);
+                &:focus, &:active, &:visited, &:hover {
+                    background-color:lighten($lightred,1) !important;
+                }//pseudos
+
+            }//xsmall
+
+            
+            padding: 9px 10px 4px;
+            border-color: $white;
+            span.icon-bar {
+                background: $white;
+                width: 40px;
+                height: 2.75px;
+            } //span-icon-bar
+            span.menu-text {
+                text-transform: lowercase;
+                line-height: 22px;
+                font-size: 13.5px;
+                font-style: italic;
+                font-stretch: extra-expanded;
+                text-shadow: 3px 3px 4px rgba(180, 174, 174, .35);
+                color: lighten($black, 5);
+            } //span-menu-text
+        } //button(border)
+        
+
+    } //mainmenu
+    .apiarea {
+        h3.headline {
+            font-size: 25px;
+        } //h3
+        p {
+            font-size: 14px;
+        }
+    } //apiarea
+} //small devices
+@include tablet {
+    #maintop {
+        #featureBanner {
+            #bannerCaption {
+                h4 {
+                    font-size: 22px;
+                } //h4
+                p {
+                    font-size: 13px;
+                } //p
+            } //bannerCaption
+        } //featureBanner
+    } //maintop
+    #mainmiddle {
+        section.apiarea {
+            h3.headline {
+                font-size: 25px;
+            } //h3.headline
+            p {
+                font-size: 14px;
+            } //p
+        } //apiarea
+    } //mainmiddle
+} //tablet
+
+/* Rules for using icons as black on a light background. */
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 36px;
+    line-height: 100%;
+    &:hover {
+        color: rgba(40, 130, 111, 0.92);
+    } //hover bright	
+} //google-icons
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+
+/* Rules for using icons as white on a dark background. */
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
