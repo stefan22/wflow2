@@ -61,7 +61,7 @@ h1 {
 	font-size: 36px;
 	line-height: 140%;
 	@extend %basefontPrimary;
-	color:lighten($black,5);
+	color:$blue;
 	margin-bottom: .6em;
 	$contrasted-dark-default:$black;
 	$contrasted-light-default: $white;
@@ -83,7 +83,7 @@ h3 {
 	line-height: 130%;
 	@extend %basefontPrimary;
 	margin-bottom: .4em;
-	color:$lightred;
+	color:$red;
 	$contrasted-dark-default:  $darkred;
 	$contrasted-light-default: $regcopy;
 	

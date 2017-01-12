@@ -39,7 +39,8 @@ header#header {
     } //logo
     #brandz {
         h1 {
-            margin-bottom: .3em;
+            margin-top:.5em;
+            margin-bottom: .1em;
             text-align: center;
             @include tablet {
                 font-size: 34px;
