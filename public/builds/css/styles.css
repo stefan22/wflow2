@@ -396,7 +396,7 @@ body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a
 /* line 28, ../../sass/_navlayout.scss */
 header#header {
   padding: 1em 0;
-  background: #f7f7f7;
+  background: #ffffff;
 }
 /* line 33, ../../sass/_navlayout.scss */
 header#header #logo a, header#header #logo body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip header#header #logo a:active, header#header #logo body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip header#header #logo a:visited, header#header #logo body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip header#header #logo a:hover {
@@ -491,7 +491,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:visited,
 #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover,
 body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
-  color: #f7f7f7;
+  color: #ffffff;
   letter-spacing: .15px;
   font-size: 16px;
   line-height: 168%;
@@ -1013,7 +1013,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 }
 /* line 191, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
-  color: #f7f7f7;
+  color: #ffffff;
   font-size: 13px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
@@ -1051,7 +1051,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   /* line 30, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar {
     padding: 9px 10px 4px;
-    border-color: #f7f7f7;
+    border-color: #ffffff;
   }
 }
 @media (min-width: 380px) and (max-width: 767px) and (min-width: 380px) and (max-width: 767px) {
@@ -1073,7 +1073,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 @media (min-width: 380px) and (max-width: 767px) {
   /* line 48, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar span.icon-bar {
-    background: #f7f7f7;
+    background: #ffffff;
     width: 40px;
     height: 2.75px;
   }
