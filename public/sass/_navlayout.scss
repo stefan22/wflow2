@@ -116,15 +116,17 @@ header#header {
     #primary-nav {
         .nanobar {
             width: 100%;
-            height: 3px;
+            height: 6px;
             z-index: 9999;
 
-            top: 0;
+            top: 1px;
             .bar {
             width: 0;
             height: 100%;
             transition: height .4s;
-            background: lighten($black,15);
+            background: lighten($white,5);
+            border-top:2px solid #00aaff;
+            border-bottom:2px solid #035432;
         }//bar            
         }//nanobar
         ul {
