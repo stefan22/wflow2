@@ -64,22 +64,33 @@
                 border-radius: 4px;
                 display: block;
                 margin: 0;
+                color:$white;
                 
                 i.material-icons {
-                    color: $lightred;
+                    color: $white;
                     font-size: 24px;
                     line-height: 99%;
                     vertical-align: middle;
                 } //material-icons
             } //h3.headline
-            h5 {
-                margin:1em 0;
-            }//h5
+            
             .form-horizontal {
+                margin-top: 3em;
                 .form-group {
                     .input-group-addon {
-                            padding: 6px 9px;
+                            padding:6px 9px;
                         }//input-group-addon
+
+                    .mainContact {
+                        h5 {
+                            margin: 0 0 1em 0;
+                        }//h5
+                    }//mainContact
+                    .activeTrade {
+                        h5 {
+                            margin: 0 0 1em 0;
+                        }//h5
+                    }//activeTrade    
 
                 }//form-group
             }//form-horizontal

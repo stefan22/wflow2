@@ -779,38 +779,47 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   border-radius: 4px;
   display: block;
   margin: 0;
+  color: #ffffff;
 }
-/* line 68, ../../sass/_maincontent.scss */
+/* line 69, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea h3.headline i.material-icons {
-  color: #da2734;
+  color: #ffffff;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
 }
-/* line 75, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea h5 {
-  margin: 1em 0;
+/* line 77, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .form-horizontal {
+  margin-top: 3em;
 }
 /* line 80, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .input-group-addon {
   padding: 6px 9px;
 }
-/* line 89, ../../sass/_maincontent.scss */
+/* line 85, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .form-horizontal .form-group .mainContact h5 {
+  margin: 0 0 1em 0;
+}
+/* line 90, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .form-horizontal .form-group .activeTrade h5 {
+  margin: 0 0 1em 0;
+}
+/* line 100, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 2em;
 }
-/* line 91, ../../sass/_maincontent.scss */
+/* line 102, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin: 1.5em auto .5em;
 }
-/* line 94, ../../sass/_maincontent.scss */
+/* line 105, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline i.material-icons {
   color: #da2734;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
 }
-/* line 102, ../../sass/_maincontent.scss */
+/* line 113, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea a img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:active img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:visited img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:hover img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:hover img {
   margin: 0 auto 1.25em;
 }
