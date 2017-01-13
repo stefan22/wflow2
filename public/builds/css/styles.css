@@ -159,7 +159,7 @@ h4 {
 h5 {
   font-size: 22px;
   line-height: 120%;
-  color: #da2734;
+  color: #000000;
   margin-bottom: .3em;
 }
 
@@ -759,35 +759,60 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
     font-size: 13px;
   }
 }
-/* line 53, ../../sass/_maincontent.scss */
+/* line 52, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle {
+  background: url(../assets/images/bgmid.jpg);
+  box-shadow: 0px 1px 3px 1px rgba(58, 84, 197, 0.35);
+  background-color: #ffffff;
+}
+/* line 56, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea {
-  margin: 2em 0;
+  padding: 2em 0;
+  min-height: 650px;
 }
-/* line 55, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea .headline > {
-  margin-bottom: .5em;
+/* line 59, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea h3.headline {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 16px 12px;
+  width: 40%;
+  border-radius: 4px;
+  display: block;
+  margin: 0;
 }
-/* line 57, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea .headline > i.material-icons {
+/* line 68, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea h3.headline i.material-icons {
   color: #da2734;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
 }
-/* line 67, ../../sass/_maincontent.scss */
+/* line 75, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea h5 {
+  margin: 1em 0;
+}
+/* line 80, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .form-horizontal .form-group .input-group-addon {
+  padding: 6px 9px;
+}
+/* line 89, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 2em;
 }
-/* line 69, ../../sass/_maincontent.scss */
+/* line 91, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
-  margin-bottom: .5em;
+  margin: 1.5em auto .5em;
 }
-/* line 71, ../../sass/_maincontent.scss */
+/* line 94, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline i.material-icons {
   color: #da2734;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
+}
+/* line 102, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea a img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:active img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:visited img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:hover img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:hover img {
+  margin: 0 auto 1.25em;
 }
 
 /*   footer
