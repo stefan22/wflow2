@@ -76,7 +76,16 @@
             
             .form-horizontal {
                 margin-top: 3em;
+                overflow: auto;
+                background:rgba(255,255,255,.2);
+                min-height: 350px;
+                padding:1em 0;
+                border-radius:4px;
                 .form-group {
+                    .minusSidepad {
+                        padding-left:0;
+                        padding-right:0;
+                    }//minusSidepad
                     .input-group-addon {
                             padding:6px 9px;
                         }//input-group-addon
@@ -87,15 +96,22 @@
                         }//h5
                     }//mainContact
                     .activeTrade {
-                        h5 {
-                            margin: 0 0 1em 0;
-                        }//h5
+                        .istrade {
+                            h5 {
+                                margin: 0 0 1em 0;
+                            }//h5
+                        }//.istrade
+                        #output {
+                            padding-top: 7em;
+                            
+                        }//output
                     }//activeTrade    
 
                 }//form-group
             }//form-horizontal
         } //apiarea
     } //mainmiddle
+
     #mainbottom {
         .apiarea {
             margin-bottom: 2em;
