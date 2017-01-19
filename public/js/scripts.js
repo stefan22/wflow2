@@ -1,6 +1,4 @@
 
-
-
 function dataload() {
 		
 		//new xmlObject instance
