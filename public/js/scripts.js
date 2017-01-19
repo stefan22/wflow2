@@ -52,12 +52,54 @@ function dataload() {
 					// add user url
 					var url = document.getElementById('url').value = resData.html_url;
 
+					var accCreated = document.getElementById('accCreated').value = startDat;
+
 
 				}// addInputFields function
-				
 
 
+				function convertTime(milli) {
+
+					var today = new Date().getTime();
+					//console.log(today);
+					var difDat = Math.abs(today - startObj);
+					console.log(difDat);  //94698848067
+
+
+					var seconds = (milli/1000).toFixed(1);
+					var minutes = (milli/(1000*60)).toFixed(1);
+					var hours = (milli/(1000*60*60)).toFixed(1);
+					var days = (milli/1000*60*60*24).toFixed(1);
+
+					if (seconds < 60) {
+						console.log(seconds + "secs"); 
+					} else if (minutes < 60) {
+						console.log(minutes + "mins"); ;
+					} else if (hours < 60) {
+						console.log(hours + "hrs"); 
+					} else {
+
+						console.log(days + "days"); 
+					}
+
+
+				}//convertTime function
 				
+
+				/*-------------------------------------------------------------------------------
+				to find out how old the account is. First i need the time the account was created
+				to be converted to a date object and then subtracted from todays time.
+				Milliseconds difference used to calculate the time
+				---------------------------------------------------------------------------------
+				*/
+
+				//get time account was created
+				var startDat = (resData.created_at);
+				
+				//convert string to date object and to miliseconds
+				var startObj = new Date(startDat).getTime();
+				//console.log(startObj);
+				convertTime(startObj);
 
 
 				//load avatar image
@@ -66,19 +108,12 @@ function dataload() {
 				addInputFields();
 
 
+				
 
 
-				//get time account was created
-				var startDat = (resData.created_at);
-				console.log(startDat);
-				//convert string to date object and to miliseconds
-				var startObj = new Date(startDat).getTime();
-				console.log(startObj);
-				var today = new Date().getTime();
-				console.log(today);
-				var difDat = Math.abs(today - startObj);
-				console.log(difDat);  //94698848067
 
+
+				
 
 			}//if readystate 4 & status 200	
 
