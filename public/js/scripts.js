@@ -52,7 +52,7 @@ function dataload() {
 					// add user url
 					var url = document.getElementById('url').value = resData.html_url;
 
-					var accCreated = document.getElementById('accCreated').value = startDat;
+					var accCreated = document.getElementById('accCreated').value = timeStartFormat(startObj);
 
 
 				}// addInputFields function
@@ -95,11 +95,77 @@ function dataload() {
 
 				//get time account was created
 				var startDat = (resData.created_at);
+				//convert string to date object and use methods to get year and month
+				var startObj = new Date(startDat);
+
+				//pass startObj to function timeStartFormat and call it
+				timeStartFormat(startObj);
+
+
+				function timeStartFormat(start) {
+
+					var yesterday = start
+					//console.log(yesterday);
+
+					var month = yesterday.getMonth();
+					var year = yesterday.getFullYear();
+
+
+
+					switch(month) {
+
+						case 0:
+							return 'January'   + " / " + year;
+							break;
+						case 1:
+							return 'February'  + " / " + year;
+							break;
+						case 2:
+							return 'March'     + " / " + year;
+							break;
+						case 3:
+							return 'April'     + " / " + year;
+							break;
+						case 4:
+							return 'May'       + " / " + year;
+							break;
+						case 5:
+							return 'June'      + " / " + year;
+							break;
+						case 6:
+							return 'July'      + " / " + year;
+							break;
+						case 7:
+							return 'August'    + " / " + year;
+							break;
+						case 8:
+							return 'September' + " / " + year;
+							break;
+						case 9:
+							return 'October'   + " / " + year;
+							break;
+						case 10:
+							return 'November'  + " / " + year;
+							break;
+						case 11:
+							return 'December'  + " / " + year;
+							break;
+							
+
+					}//switch
+
+
+					
+
+
+
+				}//timeToStart function
 				
-				//convert string to date object and to miliseconds
-				var startObj = new Date(startDat).getTime();
+
+				//convert startTime from object to milliseconds in order to use function
+				startMilli = startObj.getTime();
 				//console.log(startObj);
-				convertTime(startObj);
+				convertTime(startMilli);
 
 
 				//load avatar image
