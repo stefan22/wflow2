@@ -6,8 +6,8 @@
   ### <kbd>To run/install</kbd> :key:
   <kbd>1</kbd> git clone repo :moyai:
   <kbd>2</kbd> npm install :fuelpump:
-  <kbd>3</kbd> bower install :izakaya_lantern:
-  <kbd>4</kbd> bundler :construction:
+  <kbd>3</kbd> bower install :izakaya_lantern: &nbsp;
+  <kbd>4</kbd> bundler :construction:&nbsp;&nbsp;
   <kbd>5</kbd> type grunt  :checkered_flag:
   
   
