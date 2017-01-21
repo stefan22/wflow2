@@ -1,6 +1,6 @@
 ### wflow<kbd>2</kbd> &nbsp; :rocket:
 
-- SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, and **JavaScript**
+- SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, **JavaScript** and **Ajax**
   - nanobar library
   
   ### <kbd>To run/install</kbd> :key:
