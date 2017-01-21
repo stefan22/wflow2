@@ -25,8 +25,8 @@
   <hr />
   
   <br />
-  
-  contact info
+
+  github API
   ![client](imgsr/client.png?raw=true "mobile" target="_blank")
   
   
