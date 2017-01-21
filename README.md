@@ -8,7 +8,7 @@
   <kbd>2</kbd> npm install :fuelpump:
   <kbd>3</kbd> bower install :izakaya_lantern: &nbsp;
   <kbd>4</kbd> bundler :construction:&nbsp;&nbsp;
-  <kbd>5</kbd> type grunt  &nbsp;&nbsp;&nbsp;:checkered_flag:
+  <kbd>5</kbd> type grunt  &nbsp;&nbsp;:checkered_flag:
   
   
    <hr />
