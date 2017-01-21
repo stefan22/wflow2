@@ -24,6 +24,9 @@
                 }//xsmall
             }
             #socialIcons {
+                h5 {
+                    color:$red;
+                }//h5
                 p {
                     margin-bottom: .75em;
                     font-size: 13px;
@@ -35,8 +38,11 @@
                     display: inline-block;
                     margin-left: .5em;
                     max-height: auto;
-                    max-width: 55px;
-                    font-size: 13px;
+                    max-width: 46px;
+                    font-size: 12px;
+                    margin-right: 3px;
+                    text-align: center;
+                    color:darken($blue,12);
                     @include small {
                         max-width: 40px;
                         margin-left: 0px;
@@ -52,6 +58,8 @@
                 } //a
             } //socialIcons
             #relatedLinks {
+                h5 {color:$red;
+                }
                 @include xsmall {
                     h5 {
                         font-size:20px;
@@ -75,8 +83,9 @@
                         } //a
 
                         i.material-icons {
-                            vertical-align: text-top;
+                            vertical-align: baseline;
                             font-size: 13px;
+                            color:darken($blue,13);
                         } //i.material-icons
 
                     } //li  
@@ -86,7 +95,9 @@
             }//relatedLinks
                 
             #moreAboutUs {
-                //empty
+                h5 {
+                    color:$red;
+                }
             }
             //moreAboutUs
             padding-top:2em;
