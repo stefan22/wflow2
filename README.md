@@ -4,8 +4,8 @@
   - nanobar library
   
   ### <kbd>To run/install</kbd> :key:
-  <kbd>1</kbd> git clone repo :moyai:
-  <kbd>2</kbd> npm install :fuelpump:
+  <kbd>1</kbd> git clone repo :moyai:&nbsp;
+  <kbd>2</kbd> npm install :fuelpump:&nbsp;
   <kbd>3</kbd> bower install :izakaya_lantern: &nbsp;
   <kbd>4</kbd> bundler :construction:&nbsp;&nbsp;
   <kbd>5</kbd> type grunt  &nbsp;&nbsp;:checkered_flag:
