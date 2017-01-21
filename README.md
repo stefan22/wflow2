@@ -2,7 +2,13 @@
 
 - SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, and **JavaScript**
   - nanobar
-  - type grunt to get things running :feet:
+  
+  ### <kbd>To run/install</kbd> :key:
+  <kbd>1</kbd> git clone repo :moyai:
+  <kbd>2</kbd> npm install :fuelpump:
+  <kbd>3</kbd> bower install :izakaya_lantern:
+  <kbd>4</kbd> bundler :construction:
+  <kbd>5</kbd> type grunt  :checkered_flag:
   
   
    <hr />
