@@ -5,13 +5,31 @@
   - type grunt to get things running :feet:
   
   
+   <hr />
+  
+  <br />
+  
+  contact info
+  ![clienttop](imgsrc/clientop.png?raw=true "mobile" target="_blank")
+
+  
+  
+  
   
   <hr />
   
   <br />
   
   contact info
-  ![client](client.png?raw=true "mobile" target="_blank")
+  ![client](imgsrc/client.png?raw=true "mobile" target="_blank")
+  
+  
+  <hr />
+  
+  <br />
+  
+  contact info
+  ![client](imgsrc/clientbottom.png?raw=true "mobile" target="_blank")
 
 
 
