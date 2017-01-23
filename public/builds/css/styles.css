@@ -712,16 +712,28 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 }
 /* line 15, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner {
+  position: relative;
   border-bottom: 1px dotted #ebf0c2;
   margin-bottom: 2em;
 }
-/* line 16, ../../sass/_maincontent.scss */
+/* line 17, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner .img-responsive {
   max-width: 100%;
   height: auto;
   margin: 0 auto 1.25em;
+  opacity: .88;
 }
 /* line 24, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner canvas#canvas1 {
+  position: absolute;
+  top: 1%;
+  left: 10%;
+  background: #fff;
+  box-shadow: -20px -13px 7px 10px rgba(0, 0, 0, 0.03);
+  background-color: #f9fdff;
+  z-index: -10;
+}
+/* line 35, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption {
   background-color: #fbfcf3;
   padding: 0 15px;
@@ -729,48 +741,48 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 29, ../../sass/_maincontent.scss */
+/* line 40, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption p {
   font-size: 14px;
   margin-bottom: 1.2em;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 29, ../../sass/_maincontent.scss */
+  /* line 40, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption p {
     font-size: 13px;
   }
 }
-/* line 36, ../../sass/_maincontent.scss */
+/* line 47, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 {
   margin-bottom: .5em;
 }
-/* line 38, ../../sass/_maincontent.scss */
+/* line 49, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 i.material-icons {
   vertical-align: text-top;
   font-size: 22px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 36, ../../sass/_maincontent.scss */
+  /* line 47, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption h4 {
     font-size: 22px;
   }
-  /* line 44, ../../sass/_maincontent.scss */
+  /* line 55, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption h4 p {
     font-size: 13px;
   }
 }
-/* line 52, ../../sass/_maincontent.scss */
+/* line 63, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle {
   background: url(../assets/images/bgmid.jpg);
   box-shadow: 0px 1px 3px 1px rgba(58, 84, 197, 0.35);
   background-color: #ffffff;
 }
-/* line 56, ../../sass/_maincontent.scss */
+/* line 67, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea {
   padding: 2em 0;
   min-height: 650px;
 }
-/* line 59, ../../sass/_maincontent.scss */
+/* line 70, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea h3.headline {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -781,14 +793,14 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   margin: 0;
   color: #ffffff;
 }
-/* line 69, ../../sass/_maincontent.scss */
+/* line 80, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea h3.headline i.material-icons {
   color: #ffffff;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
 }
-/* line 77, ../../sass/_maincontent.scss */
+/* line 88, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal {
   margin-top: 3em;
   overflow: auto;
@@ -797,52 +809,52 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   padding: 1em 0;
   border-radius: 4px;
 }
-/* line 85, ../../sass/_maincontent.scss */
+/* line 96, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .minusSidepad {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 89, ../../sass/_maincontent.scss */
+/* line 100, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .input-group-addon {
   padding: 6px 9px;
 }
-/* line 94, ../../sass/_maincontent.scss */
+/* line 105, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .mainContact h5 {
   margin: 0 0 1em 0;
 }
-/* line 98, ../../sass/_maincontent.scss */
+/* line 109, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .mainContact .table-bordered > tbody > tr > td {
   border: 1px solid rgba(50, 60, 90, 0.5) !important;
 }
-/* line 102, ../../sass/_maincontent.scss */
+/* line 113, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .mainContact table.table.table-bordered > tbody > tr.info > th {
   background-color: rgba(217, 237, 247, 0.25) !important;
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.5) !important;
 }
-/* line 111, ../../sass/_maincontent.scss */
+/* line 122, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .activeTrade .istrade h5 {
   margin: 0 0 1em 0;
 }
-/* line 115, ../../sass/_maincontent.scss */
+/* line 126, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .form-horizontal .form-group .activeTrade #output {
   padding-top: 7em;
 }
-/* line 127, ../../sass/_maincontent.scss */
+/* line 138, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 2em;
 }
-/* line 129, ../../sass/_maincontent.scss */
+/* line 140, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin: 1.5em auto .5em;
 }
-/* line 132, ../../sass/_maincontent.scss */
+/* line 143, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline i.material-icons {
   color: #da2734;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
 }
-/* line 140, ../../sass/_maincontent.scss */
+/* line 151, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea a img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:active img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:visited img, #mainContent #mainbottom .apiarea body #mainWrapper #wrapper #top #skip a:hover img, body #mainWrapper #wrapper #top #skip #mainContent #mainbottom .apiarea a:hover img {
   margin: 0 auto 1.25em;
 }

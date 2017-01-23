@@ -13,12 +13,23 @@
         /* im getting rid of 15pad from container */
         padding:0;
         #featureBanner {
+            position: relative;
             .img-responsive {
                 max-width: 100%;
                 height: auto;
                 margin:0 auto 1.25em;
+                opacity: .88;
            
             }//img-responsive
+            canvas#canvas1 {
+                position: absolute;
+                top: 1%;
+                left: 10%;
+                background: #fff;
+                box-shadow: -20px -13px 7px 10px rgba(0, 0, 0, 0.03);
+                background-color: #f9fdff;
+                z-index: -10;
+            }//canvas
             border-bottom: 1px dotted darken($background, 12);
             margin-bottom: 2em;
             figure#bannerCaption {
