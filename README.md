@@ -15,7 +15,7 @@
   
   <br />
   
-  contact info
+  added canvas api rect animation to feature image (tiny rain drops over stock mkt)
   ![clienttop](imgsr/clientop.png?raw=true "mobile" target="_blank")
 
   
