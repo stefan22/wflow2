@@ -11,11 +11,22 @@
   <kbd>5</kbd> type grunt  &nbsp;&nbsp;:checkered_flag:
   
   
+  <hr />
+  
+  <br />
+  
+  added <kbd>canvas-api-rect</kbd> animation to feature image (tiny rain drops over stock mkt)
+  ![canvasAPI](imgsr/canvasApi.png?raw=true "mobile" target="_blank")
+  
+  
+  
+  
+  
    <hr />
   
   <br />
   
-  added canvas api rect animation to feature image (tiny rain drops over stock mkt)
+  a
   ![clienttop](imgsr/clientop.png?raw=true "mobile" target="_blank")
 
   
