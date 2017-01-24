@@ -212,59 +212,7 @@ httpReq.send();
 
 }//dataload
 
-function liveStock() {
-	var rectWidth = 25;
-	var rectY = 25;
-	var rectX = -rectWidth;
-	var canvas = null;
-	var context = null;
-
-	//canvas handle
-	canvas = document.getElementById('canvas1');
-	context = canvas.getContext('2d');
-	//draw blank
-	blank();
-
-	context.fillStyle = "rgba(242, 242, 21, 1);";
-	context.fillRect(rectY,rectX,rectWidth,rectWidth);
-	setInterval(anim,145);
-
-	context.fillStyle = "rgba(0, 21, 21, 1);";
-	context.fillRect(rectY,rectX,rectWidth,rectWidth);
-
-	
-	
-
-	function blank() {
-		console.log('blank here');
-		context.fillStyle = "rgba(242, 242, 21, 0.81);"
-		context.fillRect(0,0,context.canvas.width,context.canvas.height);
-
-		
-
-	}
-
-	function anim() {
-
-		if(rectX < context.canvas.width) {
-			//fills bg
-			blank();
-			rectX +=5;
-			context.fillStyle = "rgba(255,255,255,1)";
-			context.strokeStyle = 'red';
-			context.lineWidth = 12;
-			context.fillRect(rectX,rectY, rectWidth, rectWidth);
-			context.strokeRect(rectX,rectY,rectWidth,rectWidth);
-		}
-
-	else rectX = -rectWidth;
-	
-	}//anim
-
-}//liveStock
 
 
 
 document.addEventListener('DOMContentLoaded', dataload, false);
-
-document.addEventListener('DOMContentLoaded',liveStock, false);

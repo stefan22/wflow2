@@ -10,7 +10,7 @@ var maxBubbles = 200;
     function Bubble() {
         this.x = Math.round(Math.random() * context.canvas.width);
         this.y = -10;
-        this.drift = Math.random();
+        this.wind = Math.random();
         this.speed = Math.round(Math.random() * 5) + 1;
         this.width = (Math.random() * 3) + 2;
         this.height = this.width;
@@ -28,7 +28,7 @@ var maxBubbles = 200;
         // initialize the rects
         bubbleTimer = setInterval(addBubble, 200);
 
-        Draw();
+        draw();
         
         setInterval(animate, 36);
     }//init
@@ -48,24 +48,28 @@ var maxBubbles = 200;
         }
 
         function animate() {
-            Update();
-            Draw();
+            update();
+            draw();
         }
 
-        function Update() {
+        function update() {
             for (var i = 0; i < bubbleArray.length; i++) {
                 if (bubbleArray[i].y < context.canvas.height) {
                     bubbleArray[i].y += bubbleArray[i].speed;
+                    //if array greater than canvas height
                     if (bubbleArray[i].y > context.canvas.height)
+                        //reset vertical position to -5
                         bubbleArray[i].y = -5;
-                    bubbleArray[i].x += bubbleArray[i].drift;
+
+                    bubbleArray[i].x += bubbleArray[i].wind;
                     if (bubbleArray[i].x > context.canvas.width)
                         bubbleArray[i].x = 0;
                 }
-            }
-        }
+            
+            }//for loop
+        }//Update function
         
-        function Draw(){
+        function draw(){
            
             blank();
 
@@ -78,3 +82,5 @@ var maxBubbles = 200;
             context.drawImage(bufferCanvas, 0,0,bufferCanvas.width, bufferCanvas.height);
             
         }
+
+document.addEventListener('DOMContentLoaded',init,false);
