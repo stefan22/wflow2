@@ -7,10 +7,10 @@
     <title>workfolder for superclient</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1485286784613">
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1485299110486">
     <!-- google material icons   -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="public/builds/css/styles.css?rel=1485286784614">
+    <link rel="stylesheet" type="text/css" href="public/builds/css/styles.css?rel=1485299110487">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -157,16 +157,34 @@
                                 <canvas id="canvas1" width="900" height="425">
                                     canvas came to town
                                 </canvas>-->
-                                <figure id="bannerCaption">
-                                    <h4><i class="material-icons">image</i> No one likes to lose money</h4>
-                                    <p>Moreover, the pain threshold of some is greater than it is with others. If you're
-                                    considering an investment in the stock market and the thought of a loss upsets you, you
-                                    probably shouldn't invest.
-                                        <strong>However</strong>, when you invest there are several things you should know
-                                        to increase your chances of winning. Let's dispense with the mystery and take a look
-                                        behind the veil!
-                                    </p>
-                                </figure>
+                            <figure id="bannerCaption">
+                                <h4><i class="material-icons">image</i> Bubble Central</h4>
+                                 <!--  bubble central form   -->      
+                                <form class="form-inline" id="bubcen">
+
+                                  <div class="form-group col-md-4">
+                                    <label for="amtbubbles">Enter number of bubbles: </label>
+                                    <input type="number" class="form-control" id="amtbubbles" placeholder="200" min="1" max="500" pattern="[0-9]{1-500}">
+                                  </div>
+
+                                  <div class="form-group col-md-5">
+                                    <label>
+                                        <input type="checkbox" value="yespeed">
+                                        Check to adjust speed.
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" value="yeswind">
+                                        Check to adjust wind
+                                    </label>
+                                  </div>
+                                  <button type="submit" class="btn btn-info">Bubble Up!</button>
+
+                                  <div id="watcher">
+                                 
+                                  </div>
+                                </form>
+                                <!--  end of bubble central form   -->      
+                            </figure>
                                 <!--  end of bannerCaption   -->
                             </section>
                             <!--  end of sec featureBanner   -->
@@ -458,9 +476,9 @@
     <!--  end of mainFooter   -->
     <!-- END footer -->
 
-    <script src="/bower_components/jquery/dist/jquery.js?rel=1485286784614"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js?rel=1485286784615"></script>
-    <script src="/public/builds/js/scripts.min.js?rel=1485286784615"></script>
+    <script src="/bower_components/jquery/dist/jquery.js?rel=1485299110487"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js?rel=1485299110487"></script>
+    <script src="/public/builds/js/scripts.min.js?rel=1485299110488"></script>
     <script src="bower_components/nanobar/nanobar.min.js"></script>
     <script><!-- 219b / 4ms very light and pretty cool -->
         var nanobar = new Nanobar();
