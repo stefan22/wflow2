@@ -11,6 +11,25 @@
   <kbd>5</kbd> type grunt  &nbsp;&nbsp;:checkered_flag:
   
   
+  
+  
+  <hr />
+  
+  <br />
+  
+   <kbd>bubble central</kbd> now making it interactive whereby user sets number of bubbles, wind, and speed.
+  ![bubbleCentral](imgsr/bubbleCentral.png?raw=true "mobile" target="_blank")
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <hr />
   
   <br />
