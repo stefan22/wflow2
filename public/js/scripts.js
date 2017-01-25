@@ -1,4 +1,3 @@
-
 function dataload() {
 		
 		//new xmlObject instance
@@ -16,7 +15,7 @@ function dataload() {
 			if (httpReq.readyState == 4 && httpReq.status == 200)           {
 				//console.log(httpReq.responseText);
 				var resData = JSON.parse(httpReq.responseText);
-				console.log(resData);
+
 
 				function loadAvatar() {
 					var output = document.getElementById('output');
@@ -55,30 +54,67 @@ function dataload() {
 
 				}// addInputFields function
 
-
+				//i need back years, months and days
 				function convertTime(milli) {
-
+					//passing start date as argument
+					//console.log(milli);
+					//retrieve todays date on the fly
 					var today = new Date().getTime();
 					//console.log(today);
-					var difDat = Math.abs(today - startObj);
-					console.log(difDat);  //94698848067
+
+					//difference to find out how long's been
+					var difDat = Math.abs(today - milli);
+					//console.log(difDat);  //94822002356
+
+					//one day in milliseconds
+					var oneDay = 1000*60*60*24;
+
+					var days = Math.ceil(difDat/oneDay);
+					//console.log(days); //1098 days
+					var duration = 0;
+					var years = 0;
+					var months = 0;
+					
+					for (var i=0; i < days; i++) {
+						if (days >= 365) {
+							years += 1;
+							days -= 365;
+							//years
+							if (years != 0 && days > 30) {
+								duration = (years + ' years');
+								//console.log(duration);
+								//console.log(days);
+							}
+
+							
+							//months
+							else if (days > 30) {
+								months += 1;
+								months -= 30;
+							 	if (months != 0 && days > 0) {
+									//console.log(duration);
+									duration += (", and " + months + " months");
+								}//if
+
+							}
+							//remaining days 
+							else if (days > 0 && days < 30) {
+									var remaining = days;
+									//console.log(remaining);
+									duration += (", and " + remaining + " days");
+							}
+
+						}//main if
+
+					}//for loop
+
+					//grab dom handle
+					var accHowOld = document.getElementById('accHowOld');
+					//return directly to input field
+					return accHowOld.value = duration;
+					
 
 
-					var seconds = (milli/1000).toFixed(1);
-					var minutes = (milli/(1000*60)).toFixed(1);
-					var hours = (milli/(1000*60*60)).toFixed(1);
-					var days = (milli/1000*60*60*24).toFixed(1);
-
-					if (seconds < 60) {
-						console.log(seconds + "secs"); 
-					} else if (minutes < 60) {
-						console.log(minutes + "mins"); ;
-					} else if (hours < 60) {
-						console.log(hours + "hrs"); 
-					} else {
-
-						console.log(days + "days"); 
-					}
 
 
 				}//convertTime function
@@ -152,14 +188,9 @@ function dataload() {
 
 					}//switch
 
-
-					
-
-
-
 				}//timeToStart function
-				
 
+				
 				//convert startTime from object to milliseconds in order to use function
 				startMilli = startObj.getTime();
 				//console.log(startObj);
@@ -170,51 +201,18 @@ function dataload() {
 				loadAvatar();
 				//add input fields data
 				addInputFields();
-
-
-				
-
-
-
-
 				
 
 			}//if readystate 4 & status 200	
-
 
 
 		};//http.onreadystatechange
 
 httpReq.send();
 
-
-
-
 }//dataload
 
 
 
 
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', dataload, false);
-
-
-
-	
-	
-
-
-
-
-
-
-
-
-
-			
