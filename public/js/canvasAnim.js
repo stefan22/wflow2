@@ -10,11 +10,8 @@ var bubbleTimer2 = null;
 //watcher - for debugging purposes only
 var watcher = document.getElementById('watcher');
 
-//bubs is number of bubbles and by default is null
-var bubs = document.getElementById('amtbubbles');
-console.log(bubs);  //null
 
-var maxBubbles = bubs;
+var maxBubbles = 200;
 
 /*
 --------------------------------------------------------------------------
@@ -37,7 +34,7 @@ var maxBubbles = bubs;
         this.y = -10;
         this.wind = Math.random();
         this.speed = Math.round(Math.random() * 5) + 1;
-        this.width = (Math.random() * 3) + 2;
+        this.width = (Math.random() * 3) + 15;
         this.height = this.width;
     }
             
@@ -53,15 +50,15 @@ var maxBubbles = bubs;
         bufferCanvasCtx.canvas.height = context.canvas.height;
 
         // initialize the rects
-        bubbleTimer = setInterval(addBubble, bubs);
+        bubbleTimer = setInterval(addBubble, 200);
         draw();
         bubbleTimer2 = setInterval(animate, 36);
     }//init
 
         
         function addBubble() {
-            //check to see if anything's been entered, and typeof number, undefined
-            if((bubs == null) || (typeof bubs !== number) || (bubs == '') ) {
+            //check to see if anything's been entered, or undefined
+            if((maxBubbles == null) || (maxBubbles == '') ) {
                 //clear timer
                 clearInterval(bubbleTimer);
                 //nothing has been entered
@@ -71,10 +68,10 @@ var maxBubbles = bubs;
             
             } 
             //bubs a number
-            else if (typeof bubs == parseInt(number)) { 
+            else if (typeof maxBubbles === 'number') { 
 
                 //adds maxBubbles to Array and clears.
-                console.log("what is bubs: " + bubs)
+                
                 var pushArr = function(obj) {
                        //if length equals max
                     if(bubbleArray.length == maxBubbles) {
