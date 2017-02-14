@@ -24,6 +24,17 @@
   
   
   
+  <hr />
+  
+  <br />
+  
+   <kbd>roundgosquares file</kbd> canvas
+  ![bubbleCentral](imgsr/canvasgoround.png?raw=true "mobile" target="_blank")
+  
+  
+  
+  
+  
   
   
   
