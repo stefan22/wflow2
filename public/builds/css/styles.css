@@ -349,7 +349,6 @@ body #mainWrapper {
 }
 /* line 15, ../../sass/_mainlayout.scss */
 body #mainWrapper #wrapper {
-  overflow: visible;
   padding-bottom: 330px;
 }
 /* line 18, ../../sass/_mainlayout.scss */
@@ -905,9 +904,6 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 /* line 4, ../../sass/_footer.scss */
 .footer#mainFooter {
   padding: 0 !important;
-  position: relative;
-  margin-top: -295px;
-  min-height: 295px;
   clear: both;
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
   border-top: 1px solid #e7edb6;
