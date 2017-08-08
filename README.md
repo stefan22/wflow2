@@ -52,7 +52,7 @@
   added <kbd>canvas-api-rect :droplet:</kbd> animation to feature image (tiny rain drops over stock mkt)
   
   
-  ![canvasAPI](imgsr/canvasApi.png")
+  ![canvasAPI](imgsr/canvasApi.png)
   
   
   
