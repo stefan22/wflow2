@@ -5,7 +5,7 @@
 ### SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, **JavaScript** and **Ajax**
   - nanobar library
   
-  ### <kbd>To run/install</kbd> :key:
+  ### <kbd>To run/install :key:</kbd>
   <kbd>1</kbd> git clone repo :moyai:&nbsp;
   <kbd>2</kbd> npm install :fuelpump:&nbsp;
   <kbd>3</kbd> bower install :izakaya_lantern: &nbsp;
