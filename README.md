@@ -1,4 +1,4 @@
-### wflow<kbd>2</kbd> &nbsp; :rocket:
+### wflow<kbd>2 &nbsp; :rocket:</kbd>
 
 > rain drops and bubles here mean the same thing - started w/bubbles that turned into rain drops
 
