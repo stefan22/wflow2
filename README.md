@@ -17,8 +17,8 @@
   
   <br />
   
-   <kbd>bubble central</kbd> now making it interactive whereby user sets number of bubbles, wind, and speed.
-  ![bubbleCentral](imgsr/bubbleCentral.png?raw=true "mobile" target="_blank")
+   <kbd>bubble central :droplet:</kbd> now making it interactive whereby user sets number of bubbles, wind, and speed.
+  ![bubbleCentral](imgsr/bubbleCentral.png)
   
   
   
@@ -28,8 +28,8 @@
   
   <br />
   
-   <kbd>roundgosquares file</kbd> canvas
-  ![bubbleCentral](imgsr/canvasgoround.png?raw=true "" target="_blank")
+   <kbd>roundgosquares file :droplet:</kbd> canvas
+  ![bubbleCentral](imgsr/canvasgoround.png)
   
   
   
@@ -45,8 +45,8 @@
   
   <br />
   
-  added <kbd>canvas-api-rect</kbd> animation to feature image (tiny rain drops over stock mkt)
-  ![canvasAPI](imgsr/canvasApi.png?raw=true "mobile" target="_blank")
+  added <kbd>canvas-api-rect :droplet:</kbd> animation to feature image (tiny rain drops over stock mkt)
+  ![canvasAPI](imgsr/canvasApi.png")
   
   
   
@@ -57,7 +57,7 @@
   <br />
   
   top section
-  ![clienttop](imgsr/clientop.png?raw=true "mobile" target="_blank")
+  ![clienttop](imgsr/clientop.png)
 
   
   
@@ -68,7 +68,7 @@
   <br />
 
   github API
-  ![client](imgsr/client.png?raw=true "mobile" target="_blank")
+  ![client](imgsr/client.png)
   
   
   <hr />
@@ -76,7 +76,7 @@
   <br />
   
   contact info
-  ![client](imgsr/clientbottom.png?raw=true "mobile" target="_blank")
+  ![client](imgsr/clientbottom.png)
 
 
 
