@@ -63,7 +63,7 @@
   
   <br />
   
-  top section
+  <kbd>top section :droplet:</kbd>
   
   ![clienttop](imgsr/clientop.png)
 
