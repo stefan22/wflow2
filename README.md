@@ -2,7 +2,7 @@
 
 > rain drops and bubles here mean the same thing - started w/bubbles that turned into rain drops
 
-### SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, **JavaScript** and **Ajax**
+### <kbd>SPA :droplet:<kbd> using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, **JavaScript** and **Ajax**
   - nanobar library
   
   ### <kbd>To run/install :key:</kbd>
