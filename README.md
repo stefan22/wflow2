@@ -74,7 +74,7 @@
   
   <br />
 
-  github API
+  <kbd>github API :droplet:</kbd>
   
   ![client](imgsr/client.png)
   
@@ -83,7 +83,7 @@
   
   <br />
   
-  contact info
+  <kbd>contact info :droplet:</kbd>
   
   ![client](imgsr/clientbottom.png)
 
