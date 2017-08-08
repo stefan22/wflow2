@@ -1,5 +1,7 @@
 ### wflow<kbd>2</kbd> &nbsp; :rocket:
 
+> rain drops and bubles here mean the same thing - started w/bubbles that turned into rain drops
+
 - SPA Using **Bootstrap**, **Sass**, **Npm**, **Bower**, **Grunt**, **Bundler**, **JavaScript** and **Ajax**
   - nanobar library
   
